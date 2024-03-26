@@ -12,6 +12,7 @@ function AppLayout() {
       {isLoading && <Loader />}
 
       <Header />
+      
       <main>
         <Outlet />
       </main>
